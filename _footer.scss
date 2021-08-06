@@ -1,0 +1,12 @@
+
+.nav{
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+   
+   &__title {
+    padding: 16px;
+    }
+}

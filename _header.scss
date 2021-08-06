@@ -1,0 +1,31 @@
+header{
+    justify-content: space-between;
+    padding: 0px 16px 0px 32px;
+    display: flex;
+    align-items: center;
+}
+
+
+ .logo{
+    width: 100px;
+    height: auto;
+ }
+
+.menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+    &__title{
+    margin: 0px 18px;
+    padding: 18px;
+    color:　#000;
+  }
+    &__title--color{
+     background-color: lightgray;
+     font-weight: bold;
+  }
+}
+
+
