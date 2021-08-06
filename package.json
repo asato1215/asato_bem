@@ -1,0 +1,14 @@
+{
+  "name": "bem-training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yiio/bem-training.git",
+  "author": "yiio <y.iio@goalist.co.jp>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass src/scss/styles.scss dest/css/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.37.0"
+  }
+}
