@@ -1,0 +1,57 @@
+.section{
+    &--blue{
+         background-color: #07528F;
+    }
+
+    &--green{
+         background-color: #00CFB2;
+    }
+
+    &--orange{
+         background-color: #F27E3F;
+    }
+}
+
+.list{
+    padding: 0;
+    margin: 0;
+}
+
+.li{
+    &__item{
+        display: flex;
+        margin: 0 auto;
+        width: 660px;
+    }
+    &__service{
+        padding-top: 40px;
+        padding-bottom: 46px;
+        width: 300px;
+        height: auto;
+    }
+    &__text{
+        padding-top: 20px;
+        width: 300px;
+        margin-left: 32px;
+        color: #fff;
+    }
+    &__item--box{
+        background: #BF0808;
+        color: #fff;
+        font-size: 0.8rem;
+        height: 36px;
+        padding: 9px 16px;
+        border: none;
+    }
+}
+
+h1{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    margin: 8px 0px;
+    font-size: 0.8rem;
+}
